@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Shy's SCARY STORY blog post</title>
+    <link rel="stylesheet" href="/styles/layout.css">
+</head>
+
+
+<body>
+    <h1>share a scary story</h1>
+    <form action="/submit" method="POST">
+        <label for="name">user's name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="story">scary story:</label>
+        <textarea id="story" name="story" rows="4" required></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <a href="/posts">view posts</a>
+</body>
+</html>
